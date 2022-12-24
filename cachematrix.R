@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function will take the list of functions returned by makeCacheMatrix(). 
 #First, it call getinverse(). If there is an inverse matrix stored in the object, 
-#then it will return i as the result. 
+#then it will return "a" as the result. 
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
